@@ -1,0 +1,124 @@
+{
+  "project_info": {
+    "project_number": "60707745869",
+    "project_id": "family-todo-4629b",
+    "storage_bucket": "family-todo-4629b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60707745869:android:f27e65a6812bbf56d62c04",
+        "android_client_info": {
+          "package_name": "com.devsoul.familyhub.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_dS2X86wwdj6tm4i4OyVL7_B6DEQabGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60707745869:android:51b1bb545c2361ced62c04",
+        "android_client_info": {
+          "package_name": "com.familyhub.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_dS2X86wwdj6tm4i4OyVL7_B6DEQabGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60707745869:android:a6ff5fe1f7f71b2dd62c04",
+        "android_client_info": {
+          "package_name": "com.mutaharaduaa.familytodo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_dS2X86wwdj6tm4i4OyVL7_B6DEQabGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60707745869:android:ef21cd7da4239a53d62c04",
+        "android_client_info": {
+          "package_name": "com.mutaharaduaa.familytodo.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_dS2X86wwdj6tm4i4OyVL7_B6DEQabGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60707745869:android:22539e951a7461a4d62c04",
+        "android_client_info": {
+          "package_name": "com.mutaharaduaa.familytodo.stg"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_dS2X86wwdj6tm4i4OyVL7_B6DEQabGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:60707745869:android:1e6a414458bb627cd62c04",
+        "android_client_info": {
+          "package_name": "com.staging.familyhub"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_dS2X86wwdj6tm4i4OyVL7_B6DEQabGA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

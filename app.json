@@ -1,30 +1,73 @@
 {
   "expo": {
-    "name": "family-todo",
+    "name": "Family Hub",
     "slug": "family-todo",
     "version": "1.0.0",
+    "scheme": "family-todo",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/family-logo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/family-logo.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.mutaharaduaa.familytodo"
     },
     "android": {
+      "permissions": [
+        "NOTIFICATIONS",
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE"
+      ],
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/logo-bg-rmv.png",
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "predictiveBackGestureEnabled": false
+      "predictiveBackGestureEnabled": false,
+      "package": "com.mutaharaduaa.familytodo",
+      "googleServicesFile": "./google-services.json"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "@sentry/react-native",
+        {
+          "organization": "devsoul-7n",
+          "project": "react-native"
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Allow FamilyTodo to see your bills",
+          "cameraPermission": "Allow FamilyTodo to take bill photos"
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "color": "#1E3A8A"
+        }
+      ],
+      "@react-native-community/datetimepicker",
+      "expo-web-browser",
+      "expo-localization"
+    ],
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "681dc982-cad2-40c2-9cdb-98dfb5ab8d1b"
+      }
+    },
+    "owner": "mutaharaduaa"
   }
 }
